@@ -45,7 +45,7 @@ def split(n: int, path: str, file: str, suffix: str = None, encoding: str = "utf
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser("python split.py", description="split files by number of lines")
+    parser = argparse.ArgumentParser("$ python split.py", description="split files by number of lines")
     parser.add_argument("n", type=int, help="max number of lines per file")
     parser.add_argument("path", type=str, help="path of file")
     parser.add_argument("file", type=str, help="name of file to split")
